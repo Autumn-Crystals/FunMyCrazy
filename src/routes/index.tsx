@@ -4,6 +4,7 @@ import { Hero } from "@/components/fmci/Hero";
 import { About } from "@/components/fmci/About";
 import { Countdown } from "@/components/fmci/Countdown";
 import { Mission } from "@/components/fmci/Mission";
+import { ProblemToIdea } from "@/components/fmci/ProblemToIdea";
 import { Themes } from "@/components/fmci/Themes";
 import { Gemini } from "@/components/fmci/Gemini";
 import { Round1Section } from "@/components/fmci/Round1Section";
@@ -44,6 +45,7 @@ function Index() {
         <About />
         <Countdown />
         <Mission />
+        <ProblemToIdea />
         <Themes />
         <Gemini />
         <Round1Section />
