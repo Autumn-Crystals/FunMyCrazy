@@ -1,5 +1,6 @@
 import { ArrowRight, FileText, CheckCircle, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { REGISTER_URL } from "@/lib/fmci";
 import { Reveal, Eyebrow } from "./Section";
 
 const STEPS = [
