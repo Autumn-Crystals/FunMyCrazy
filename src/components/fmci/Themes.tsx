@@ -10,7 +10,7 @@ import {
   X,
   Lightbulb,
 } from "lucide-react";
-import { THEMES } from "@/lib/fmci";
+import { THEMES, REGISTER_URL } from "@/lib/fmci";
 import { Reveal, Eyebrow } from "./Section";
 import { Button } from "@/components/ui/button";
 

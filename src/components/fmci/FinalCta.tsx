@@ -1,5 +1,6 @@
 import { ArrowRight, Calendar, Video, Mic } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { REGISTER_URL } from "@/lib/fmci";
 import { Reveal } from "./Section";
 
 export function FinalCta() {
