@@ -248,28 +248,3 @@
     transition-duration: 0.01ms !important;
   }
 }
-
-/*
- * ─────────────────────────────────────────────────────────────
- * MOBILE ONLY  (max-width: 639px)
- * Scroll-snap: proximity — gentle snapping that triggers only
- * when the user naturally pauses near a section boundary.
- * Does NOT force jumps or interfere with tall sections.
- * Desktop/tablet (≥ 640px) is completely unaffected.
- * ─────────────────────────────────────────────────────────────
- */
-@media (max-width: 639px) {
-  /* Slightly increase scroll-padding to account for the 3px
-     progress bar sitting above the fixed 64px nav */
-  html {
-    scroll-snap-type: y proximity;
-    scroll-padding-top: 5.75rem;
-  }
-
-  /* Every top-level <section> becomes a gentle snap point */
-  main > section {
-    scroll-snap-align: start;
-    /* Prevent snap from cutting off the section top edge */
-    scroll-margin-top: 0;
-  }
-}

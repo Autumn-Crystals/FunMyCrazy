@@ -15,7 +15,7 @@ import { FinalCta } from "@/components/fmci/FinalCta";
 import { Faq } from "@/components/fmci/Faq";
 import { Footer } from "@/components/fmci/Footer";
 import { StickyRegister } from "@/components/fmci/StickyRegister";
-import { MobileProgressBar } from "@/components/fmci/MobileProgressBar";
+
 
 const TITLE = "Fund My Crazy Idea — Two-Round Campus Innovation Challenge";
 const DESCRIPTION =
@@ -38,7 +38,6 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-background">
-      <MobileProgressBar />
       <Nav />
       <main>
         <Hero />

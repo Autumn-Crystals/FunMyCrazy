@@ -12,4 +12,40 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    build: {
+      // Raise warning threshold to 1 MB (default is 500 KB).
+      // Large vendor chunks (React, Radix, Supabase) are expected — they are split below.
+      chunkSizeWarningLimit: 1000,
+      rollupOptions: {
+        output: {
+          manualChunks: (id) => {
+            // Group heavy vendor libraries into separate cached chunks
+            if (id.includes("node_modules/react") || id.includes("node_modules/react-dom")) {
+              return "vendor-react";
+            }
+            if (id.includes("node_modules/@radix-ui")) {
+              return "vendor-radix";
+            }
+            if (id.includes("node_modules/@tanstack")) {
+              return "vendor-tanstack";
+            }
+            if (id.includes("node_modules/@supabase") || id.includes("node_modules/supabase")) {
+              return "vendor-supabase";
+            }
+            if (id.includes("node_modules/recharts") || id.includes("node_modules/d3")) {
+              return "vendor-charts";
+            }
+            if (id.includes("node_modules/lucide-react")) {
+              return "vendor-icons";
+            }
+            if (id.includes("node_modules/")) {
+              return "vendor-misc";
+            }
+          },
+        },
+      },
+    },
+  },
 });
+
