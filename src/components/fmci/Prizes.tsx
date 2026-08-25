@@ -97,12 +97,12 @@ const BEST = [
     medal: Trophy,
     place: "BEST PITCH",
     amount: "₹5,000",
-    sub: "E-VOUCHER",
+    sub: "CASH PRIZE",
     extra: "+ a chance to compete for a Google Pixel Phone",
     featured: true,
   },
-  { medal: Medal, place: "SECOND BEST PITCH", amount: "₹2,000", sub: "E-VOUCHER", extra: "", featured: false },
-  { medal: Award, place: "THIRD BEST PITCH", amount: "₹1,000", sub: "E-VOUCHER", extra: "", featured: false },
+  { medal: Medal, place: "SECOND BEST PITCH", amount: "₹2,000", sub: "CASH PRIZE", extra: "", featured: false },
+  { medal: Award, place: "THIRD BEST PITCH", amount: "₹1,000", sub: "CASH PRIZE", extra: "", featured: false },
 ];
 
 export function BestPitches() {

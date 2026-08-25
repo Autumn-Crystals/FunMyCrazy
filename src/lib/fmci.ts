@@ -5,7 +5,6 @@ export const EVENT = {
   round2Date: "2 SEPTEMBER 2026",
   round2Platform: "ONLINE MEETING",
   round2Fee: "₹50",
-  gid: "12912",
 };
 
 export const THEMES = [
@@ -130,7 +129,7 @@ export const FAQS = [
   },
   {
     q: "What are the Best Pitch prizes?",
-    a: "Best Pitch: ₹5,000 e-voucher + chance to compete for a Google Pixel Phone. Second Best: ₹2,000 e-voucher. Third Best: ₹1,000 e-voucher.",
+    a: "Best Pitch: ₹5,000 cash prize + chance to compete for a Google Pixel Phone. Second Best: ₹2,000 cash prize. Third Best: ₹1,000 cash prize.",
   },
   {
     q: "What are the national prizes?",

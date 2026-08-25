@@ -16,7 +16,7 @@ export function Footer() {
           <p className="mt-4 text-sm font-semibold text-background/70">
             Google Student Ambassador / Gemini
           </p>
-          <p className="mt-1 text-sm font-semibold text-background/70">GID: {EVENT.gid}</p>
+
           <p className="mt-1 text-sm font-semibold text-background/70">
             {EVENT.date} · {EVENT.time} · {EVENT.platform}
           </p>
