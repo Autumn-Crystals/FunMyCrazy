@@ -83,7 +83,7 @@ export function Round1Section() {
                 </div>
 
                 <Button asChild variant="hero" size="xl" className="w-full justify-center">
-                  <a href="#round1">
+                  <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">
                     SUBMIT YOUR IDEA <ArrowRight className="arrow size-5" />
                   </a>
                 </Button>

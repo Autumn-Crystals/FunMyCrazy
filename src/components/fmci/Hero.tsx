@@ -1,5 +1,6 @@
 import { ArrowRight, ArrowDown, Calendar, CheckCircle, Video, Mic } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { REGISTER_URL } from "@/lib/fmci";
 import heroCity from "@/assets/hero-city.png";
 
 const FACTS = [
@@ -53,7 +54,7 @@ export function Hero() {
 
           <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-center lg:justify-start">
             <Button asChild variant="hero" size="xl">
-              <a href="#round1">
+              <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">
                 SUBMIT YOUR IDEA <ArrowRight className="arrow size-5" />
               </a>
             </Button>

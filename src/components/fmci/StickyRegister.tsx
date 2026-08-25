@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { REGISTER_URL } from "@/lib/fmci";
 import { cn } from "@/lib/utils";
 
 export function StickyRegister() {
@@ -21,7 +22,7 @@ export function StickyRegister() {
       )}
     >
       <Button asChild variant="hero" size="pill" className="w-full shadow-lift sm:w-auto">
-        <a href="#round1">
+        <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">
           SUBMIT YOUR IDEA — FREE <ArrowRight className="arrow size-4" />
         </a>
       </Button>

@@ -62,7 +62,7 @@ export function Nav() {
             size="pill"
             className="hidden h-11 px-6 text-sm sm:inline-flex"
           >
-            <a href="#round1">
+            <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">
               SUBMIT YOUR IDEA <ArrowRight className="arrow size-4" />
             </a>
           </Button>
@@ -92,7 +92,7 @@ export function Nav() {
             ))}
           </div>
           <Button asChild variant="hero" size="pill" className="mt-3 w-full">
-            <a href="#round1">
+            <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">
               SUBMIT YOUR IDEA <ArrowRight className="arrow size-4" />
             </a>
           </Button>

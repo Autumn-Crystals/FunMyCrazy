@@ -1,4 +1,4 @@
-export const REGISTER_URL = ""; // Form URL removed — will be added later
+export const REGISTER_URL = "https://forms.gle/qhoHivEeda5JBdJU6";
 
 export const EVENT = {
   round1Deadline: "30 AUGUST 2026",

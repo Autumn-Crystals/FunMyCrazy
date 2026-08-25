@@ -26,7 +26,7 @@ export function FinalCta() {
               size="xxl"
               className="mt-9 bg-foreground font-extrabold text-background shadow-lift transition-all duration-200 hover:-translate-y-1 hover:bg-foreground/90 [&_.arrow]:transition-transform hover:[&_.arrow]:translate-x-1"
             >
-              <a href="#round1">
+              <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">
                 SUBMIT YOUR IDEA <ArrowRight className="arrow size-5" />
               </a>
             </Button>

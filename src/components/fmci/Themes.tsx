@@ -81,7 +81,7 @@ function ThemeModal({ theme, onClose }: { theme: Theme; onClose: () => void }) {
           </div>
 
           <Button asChild variant="hero" size="pill" className="mt-6 w-full justify-center">
-            <a href="#round1">
+            <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">
               SUBMIT YOUR IDEA <ArrowRight className="arrow size-4" />
             </a>
           </Button>
