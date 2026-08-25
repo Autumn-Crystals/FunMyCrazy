@@ -29,7 +29,7 @@ export function Prizes() {
       <div className="grid-bg pointer-events-none absolute inset-0" aria-hidden />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Reveal className="text-center">
-          <Eyebrow>National prize pool</Eyebrow>
+          <Eyebrow>OFFICIAL FUND MY CRAZY NATIONAL PRIZE POOL</Eyebrow>
           <h2 className="mx-auto mt-5 max-w-4xl font-display text-[clamp(2.4rem,8vw,6rem)] font-bold leading-[0.9]">
             10 STUDENTS. <span className="text-primary">₹1 CRORE.</span>
           </h2>
